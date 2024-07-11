@@ -46,11 +46,8 @@ Para executar o projeto localmente, siga estas instruções:
 - Configure as variáveis de ambiente necessárias, se houver.
 - Execute a aplicação usando mvn spring-boot:run
 
-## Configuração do Banco de Dados
-
-O projeto utiliza um banco de dados H2 em memória por padrão. Não é necessário configurar nenhum banco de dados adicional.
-
-## Rotas
+## Teste com Postman
+Para realizar os testes dos endpoint foi usado [Postamn](https://www.postman.com/), caso não o tenha instalado clique em seu nome para ser direcionado a pagina de download.
 
 ## Entidades
   ```json
@@ -84,6 +81,9 @@ O projeto utiliza um banco de dados H2 em memória por padrão. Não é necessá
 | Criação de Viagem                | [http://localhost:8080/](http://localhost:8080/trip)                                 | *********                                             |
 | Atualização de Viagem            | [http://localhost:8080/create](http://localhost:8080/trip/{id})                      | ********                                              |
 
+## Configuração do Banco de Dados
+
+O projeto utiliza um banco de dados H2 em memória por padrão. Não é necessário configurar nenhum banco de dados adicional
 
 ## License
 
